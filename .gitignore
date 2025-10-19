@@ -1,0 +1,61 @@
+# Build Folders
+bin/
+obj/
+out/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.dotCover
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# ASP.NET Core / .NET
+*.db
+*.bak
+*.log
+*.pdb
+*.cache
+*.db-shm
+*.db-wal
+
+# Configuration Files
+appsettings.*.json.user
+secrets.json
+
+# OS Generated
+.DS_Store
+Thumbs.db
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+*.xunit.xml
+
+# Publish outputs
+publish/
+*.Publish.xml
+
+# Rider / JetBrains
+.idea/
+
+# Others
+*.dotCover
+*.dotTrace
