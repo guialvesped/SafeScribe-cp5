@@ -1,4 +1,5 @@
 ﻿
+using CP5.Models;
 using CP5.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -57,20 +58,5 @@ namespace CP5.Controllers
             return Ok($"Olá {username}! Você pode acessar as notas protegidas!");
         }
 
-        /// <summary>
-        /// Classe auxiliar para representar o corpo do login enviado no POST.
-        /// </summary>
-        public class UserLogin
-        {
-            /// <summary>
-            /// Nome de usuário utilizado para autenticação.
-            /// </summary>
-            public string Username { get; set; }
-
-            /// <summary>
-            /// Senha do usuário.
-            /// </summary>
-            public string Password { get; set; }
-        }
     }
 }
